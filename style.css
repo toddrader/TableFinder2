@@ -1,0 +1,82 @@
+html {
+  background-color: #E1D7D4;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+  text-align: center;
+}
+h1,h2 {
+  font-family: 'Rubik', sans-serif;
+  color: #E34E45;
+}
+.tableFinder {
+  height: 300px;
+}
+.table {
+  background-color: #EEE;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  text-align: center;
+  vertical-align: center;
+  line-height: 50px;
+  margin-top: 10px;
+}
+.tables {
+  display: grid;
+  grid-template-columns: 50px 50px 50px;
+  grid-template-rows: 50px auto 50px;
+  grid-gap: 10px 10px;
+  justify-content: center;
+  background-color: white;
+  padding-bottom: 20px;
+}
+.reserved {
+  cursor: move;
+  background-color: #ADAAAA;
+}
+.available:hover{
+  background-color: #008000;
+  cursor: pointer;
+}
+.reservation{
+  background-color: white;
+  text-align: center;
+  vertical-align: center;
+  width: 300px;
+  height: 350px;
+  position: absolute;
+  /* left: 0px; */
+  top: 20px;
+  z-index: 1;
+}
+.xOut {
+  color: #CCC;
+  text-align: right;
+  margin-right: 5px;
+}
+.xOut:hover {
+  color: black;
+  cursor: pointer;
+}
+input {
+  border-top: none;
+  border-right: none;
+  border-bottom: 1px solid #ADAAAA;
+  border-left: none;
+  font-size: 14px;
+  width: 200px;
+  margin-top: 20px;
+}
+button {
+  color: white;
+  background-color: #008000;
+  width: 200px;
+  height: 40px;
+  font-size: 12px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+/* colors green #008000 dark gray #ADAAAA mid-gray #CCC light-gray #EEE red #E34E45 */

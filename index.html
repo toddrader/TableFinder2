@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Rubik:700" rel="stylesheet">  <title>Table Finder</title>
+  </head>
+  <body>
+    <div class="tableFinder">
+      <h1>Table Finder</h1>
+      <p>Pick your table now</p>
+      <div class="tables">
+        <div class="1 table available">
+          <div id="tableNumber">1</div>
+        </div>
+        <div class="2 table available">
+          <div id="tableNumber">2</div>
+        </div>
+        <div class="3 table available">
+          <div id="tableNumber">3</div>
+        </div>
+        <div class="4 table available">
+          <div id="tableNumber">4</div>
+        </div>
+        <div class="5 table available">
+          <div id="tableNumber">5</div>
+        </div>
+        <div class="6 table available">
+          <div id="tableNumber">6</div>
+        </div>
+        <div class="7 table available">
+          <div id="tableNumber">7</div>
+        </div>
+        <div class="8 table available">
+          <div id="tableNumber">8</div>
+        </div>
+        <div class="9 table available">
+          <div id="tableNumber">9</div>
+        </div>
+      </div>
+    </div>
+    <div class="reservation">
+      <div class="xOut">x</div>
+      <h2>New Reservation</h2>
+      <p class=tableNumberDisplay></p>
+      <input type="text" class="nameInput" placeholder="Name" required></input>
+      <input type="tel" class="telInput" placeholder="Phone number" required
+           pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"></input>
+      <input type="number" class="numberInput" placeholder="Size of Party" required></input>
+      <button type=button id="save">SAVE</button    </div>
+      </body>
+  </html>
+  <script src="jquery-3.3.1.js"></script>
+  <script src="script.js"></script>
