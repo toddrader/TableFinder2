@@ -79,4 +79,14 @@ button {
   margin-top: 30px;
   margin-bottom: 30px;
 }
-/* colors green #008000 dark gray #ADAAAA mid-gray #CCC light-gray #EEE red #E34E45 */
+@media screen and (max-width: 400px) {
+  .reservation{
+    width: 200px;
+  }
+  button {
+   width: 150px;
+  }
+  input {
+   width: 150px;
+  }
+}
