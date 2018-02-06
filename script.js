@@ -1,7 +1,7 @@
 $( document ).ready(function() {
 $(function() {
   var tableSelected="";
-$(".reservation").hide();
+  $(".reservation").hide();
   $(".table").click(function() {
     $(this).toggleClass('available reserved');
     tableSelected = $(this).attr("class")[0];
@@ -14,7 +14,7 @@ $(".reservation").hide();
   });
   $("button").click(function() {
     $(".reservation").hide(1500);
-    $('.'+tableSelected).attr('title', "Name: "+ $(".nameInput").val()+" " +"Size of party: "+ $(".numberInput").val());
+    $('.'+tableSelected).attr('title', "Name: "+ $(".nameInput").val()+ " " + "Size of party: "+ $(".numberInput").val());
     console.log($('.'+tableSelected).attr('title'));
   });
   $("table").on("mouseenter", function () {
