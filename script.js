@@ -1,7 +1,6 @@
 $( document ).ready(function() {
 $(function() {
   var tableSelected="";
-  // $(".reservation").hide();
   $(".table").click(function() {
     $(this).toggleClass('available reserved');
     tableSelected = $(this).attr("class")[0];

@@ -45,7 +45,7 @@ h1,h2 {
   background-color: white;
   text-align: center;
   vertical-align: center;
-  width: 300px;
+  width: 200px;
   height: 350px;
   position: absolute;
   display: none;
@@ -67,26 +67,26 @@ input {
   border-bottom: 1px solid #ADAAAA;
   border-left: none;
   font-size: 14px;
-  width: 200px;
+  width: 150px;
   margin-top: 20px;
 }
 button {
   color: white;
   background-color: #008000;
-  width: 200px;
+  width: 150px;
   height: 40px;
   font-size: 12px;
   margin-top: 30px;
   margin-bottom: 30px;
 }
-@media screen and (max-width: 400px) {
+@media screen and (min-width: 720px) {
   .reservation{
-    width: 200px;
+    width: 300px;
   }
   button {
-   width: 150px;
+   width: 200px;
   }
   input {
-   width: 150px;
+   width: 200px;
   }
 }
